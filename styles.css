@@ -92,7 +92,6 @@ button:hover {
 .title {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 #About h2 {
@@ -102,7 +101,7 @@ button:hover {
     background-color: #00BFFF;
     padding: 10px;
     border-radius: 10px;
-    
+    margin-bottom: 50px;
 }
 
 #About p {
@@ -134,7 +133,7 @@ button:hover {
 
 #Projects h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 100px;
 }
 
@@ -183,4 +182,28 @@ button:hover {
     padding-top: 7px;
 }
 
+/* CV */
 
+#CV {
+    justify-content: center;
+
+}
+
+#CV h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.text {
+    text-align: center;
+}
+
+#CV p {
+   font-size: 23px;
+   max-width: 750px;
+   margin-bottom: 30px;
+}
+
+#CV {
+    text-align: center;
+}
