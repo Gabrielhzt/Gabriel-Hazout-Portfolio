@@ -65,7 +65,7 @@ button:hover {
 
 .welc {
     text-align: center;
-    margin: 130px 300px 0px;
+    margin: 135px 300px 135px;
     
 }
 
@@ -77,4 +77,51 @@ button:hover {
 .welc p {
     font-size: 25px;
     margin: 0px 60px 30px;
+}
+
+/* About Me */
+
+#About {
+    margin: 0px 50px;
+    padding: 40px 60px;
+    background-color: #2B384C;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#About h2 {
+    color: #fff;
+    font-size: 30px;
+    width: 250px;
+    background-color: #00BFFF;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#About p {
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+#About ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#About li {
+    color: #fff;
+    background-color: #00BFFF;
+    padding: 7px;
+    border-radius: 5px;
+    
 }
