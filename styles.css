@@ -186,7 +186,7 @@ button:hover {
 
 #CV {
     justify-content: center;
-
+    margin-bottom: 130px;
 }
 
 #CV h2 {
@@ -206,4 +206,149 @@ button:hover {
 
 #CV {
     text-align: center;
+}
+
+/* Contact Me */
+
+#Contact {
+    background: linear-gradient(to bottom, #ffffff 90%, #2B384C 10%);
+    padding-top: 10px;
+}
+
+.All {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    'info form';
+    margin: 50px 100px 0;
+    padding: 50px;
+    gap: 60px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    grid-area: info;
+}
+
+.info h2 {
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.info p {
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 0 20px;
+    max-width: 350px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #2B384C;
+    border: 1px solid #2B384C;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.info-block {
+    font-size: 15px;
+}
+
+.info-block p, h3 {
+    margin: 3px 0px;
+}
+
+.reseaux {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.form {
+    grid-area: form;
+}
+
+.form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#name {
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 435px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+#company {
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 435px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+#numero {
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 200px;
+    outline: none;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 200px;
+    outline: none;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+#message {
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 435px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 5px 0;
+    font-size: 17px;
+    height: 70px;
+}
+
+.block-two {
+    display: flex;
+    gap: 10px;
 }
