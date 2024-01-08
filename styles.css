@@ -485,6 +485,8 @@ footer p {
         width: 400px;
     }
 
+    /* Contact */
+
     .info h2 {
         font-size: 28px;
     }
@@ -504,8 +506,6 @@ footer p {
     .form p {
         font-size: 20px;
     }
-
-
 
     #name {
         border: none;
@@ -562,4 +562,171 @@ footer p {
         gap: 0px;
     }
 
+}
+
+
+
+@media only screen and (max-width: 1064px) {
+
+    /* Welc */
+
+    .welc {
+        text-align: center;
+        margin: 100px 0;
+        margin: 145px 140px 145px;
+    }
+
+    .welc h1 {
+        font-size: 40px;
+    }
+
+    .welc p {
+        font-size: 20px;
+    }
+
+    /* Projects */ 
+
+    .project {
+        width: 600px;
+    }
+
+    .project img {
+        width: 600px;
+    }
+
+    /* CV */
+
+    #CV {
+        margin: 0px 110px 90px;
+    }
+
+    #CV h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    #CV p {
+       font-size: 20px;
+       max-width: 750px;
+       margin-bottom: 30px;
+    }
+    
+    #CV {
+        text-align: center;
+    }
+
+    /* Contact */
+
+    .All {
+        grid-template-areas: 
+        'form form'
+        'info info';
+
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .info h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .info-a p {
+        text-align: center;
+        margin-bottom: 40px;
+        text-align: center;
+        margin: 10px 60px 50px;
+        font-size: 20px;
+    
+    }
+
+    .block {
+        min-width: 350px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .form h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .form p {
+        margin-bottom: 40px;
+        text-align: center;
+        margin: 10px 60px 50px;
+        font-size: 20px;
+    }
+    
+    #message {
+        height: 60px;
+    }
+
+    #name {
+        min-width: 435px;
+    }
+    
+    #company {
+        min-width: 435px;
+    }
+    
+    #number {
+        min-width: 200px;
+    }
+    
+    #email {
+        min-width: 200px;
+    }
+    
+    #message {
+        min-width: 435px;
+    }
+    
+    .block-two {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    /* Footer */ 
+
+    footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    footer h1 {
+        color: #fff;
+        font-size: 27px;
+    }
+    
+    .footer li {
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .footer li:hover {
+        text-decoration: underline;
+    }
+    
+    footer p {
+        color: #fff;
+        font-size: 18px;
+    }
 }
