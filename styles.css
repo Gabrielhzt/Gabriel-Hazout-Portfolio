@@ -19,10 +19,15 @@ nav {
     display: flex;
     align-items: center;
     gap: 50px;
+    
 }
 
 .nav h1 {
     font-size: 35px;
+}
+
+.phone {
+    display: none;
 }
 
 a {
@@ -50,7 +55,7 @@ li:hover {
 }
 
 button {
-    padding: 7px 15px;
+    padding: 7px 17px;
     color: #fff;
     background-color: #00BFFF;
     border: 2px solid #00BFFF;
@@ -319,7 +324,7 @@ button:hover {
     font-size: 17px;
 }
 
-#numero {
+#number {
     border: none;
     border-bottom: 1px solid black;
     min-width: 200px;
@@ -381,4 +386,180 @@ footer h1 {
 footer p {
     color: #fff;
     font-size: 18px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1259px) {
+
+
+    /* Nav */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        width: 100%;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Title {
+        left: 5px;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav ul.actif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .link {
+        display: none;
+    }
+    
+    .link.actif {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cv-btn {
+        display: none;
+    }
+
+    /* Welc */
+
+    .welc {
+        text-align: center;
+        margin: 100px 0;
+        margin: 145px 200px 145px;
+    }
+
+    .welc h1 {
+        font-size: 46px;
+    }
+
+    .welc p {
+        font-size: 23px;
+    }
+
+    /* Projects */ 
+
+    .All {
+        gap: 60px;
+    }
+
+    .project {
+        width: 400px;
+    }
+
+    .project img {
+        width: 400px;
+    }
+
+    .info h2 {
+        font-size: 28px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .reseaux {
+        margin-top: 70px;
+    }
+
+    .form h2 {
+        font-size: 28px;
+    }
+
+    .form p {
+        font-size: 20px;
+    }
+
+
+
+    #name {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #company {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #number {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #email {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #message {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+        height: 29px;
+    
+    }
+
+    .block-two {
+        flex-direction: column;
+        gap: 0px;
+    }
+
 }
