@@ -63,6 +63,14 @@ button {
     cursor: pointer;
 }
 
+.mail-btn {
+    display: none;
+}
+
+.cv-btn {
+    display: none;
+}
+
 button:hover {
     background-color: #fff;
     color: #00BFFF;
@@ -452,7 +460,15 @@ footer p {
     }
 
     .cv-btn {
+        display: flex;
+    }
+
+    .cv-btn-two {
         display: none;
+    }
+
+    .mail-btn {
+        display: flex;
     }
 
     /* Welc */
@@ -728,5 +744,133 @@ footer p {
     footer p {
         color: #fff;
         font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+
+    /* Header */
+
+    .cv-btn {
+        display: none;
+    }
+
+    /* Welc */
+
+    .welc {
+        text-align: center;
+        margin: 145px 70px 145px;
+    }
+
+    .welc h1 {
+        font-size: 33px;
+    }
+
+    .welc p {
+        font-size: 17px;
+    }
+
+    /* Projects */ 
+
+    .project {
+        width: 400px;
+    }
+
+    .project img {
+        width: 400px;
+    }
+
+    /* CV */
+
+    #CV {
+        margin: 0px 70px 90px;
+    }
+
+    /* form */
+
+    .All {
+        margin: 0 60px;
+    }
+
+    .form h2 {
+        font-size: 30px;
+    }
+    
+    .form p {
+        margin-bottom: 40px;
+        text-align: center;
+        margin: 10px 0px 50px;
+        font-size: 17px;
+    }
+
+    .info h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .info-a p {
+        text-align: center;
+        margin: 10px 0px 50px;
+        font-size: 17px;
+    }
+
+    .contact {
+        margin: auto 60px;
+    }
+
+    #name {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #company {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #number {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #email {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+    
+    #message {
+        border: none;
+        border-bottom: 1px solid black;
+        min-width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px 0;
+        font-size: 17px;
+        height: 29px;
+    
+    }
+
+    .block-two {
+        
+        flex-direction: column;
+        gap: 0px;
     }
 }
