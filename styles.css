@@ -186,7 +186,7 @@ button:hover {
 
 #CV {
     justify-content: center;
-    margin-bottom: 130px;
+    margin-bottom: 90px;
 }
 
 #CV h2 {
@@ -212,7 +212,7 @@ button:hover {
 
 #Contact {
     background: linear-gradient(to bottom, #ffffff 90%, #2B384C 10%);
-    padding-top: 10px;
+    padding-top: 0.02px;
 }
 
 .All {
@@ -345,10 +345,40 @@ button:hover {
     outline: none;
     padding: 5px 0;
     font-size: 17px;
-    height: 70px;
+    height: 60px;
 }
 
 .block-two {
     display: flex;
     gap: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B384C;
+    padding: 130px 60px 70px;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 27px;
+}
+
+.footer li {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer li:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
 }
