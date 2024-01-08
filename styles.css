@@ -79,7 +79,6 @@ button:hover {
 .welc {
     text-align: center;
     margin: 135px 300px 135px;
-    
 }
 
 .welc h1 {
@@ -872,5 +871,21 @@ footer p {
         
         flex-direction: column;
         gap: 0px;
+    }
+}
+
+@media only screen and (min-height: 765px) {
+
+    .welc {
+        text-align: center;
+        margin: 145px 300px 145px;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+
+    .welc {
+        text-align: center;
+        margin: 190px 300px 190px;
     }
 }
