@@ -78,7 +78,7 @@ button:hover {
 
 .welc {
     text-align: center;
-    margin: 135px 300px 135px;
+    margin: 135px 300px 75px;
 }
 
 .welc h1 {
@@ -94,6 +94,10 @@ button:hover {
 /* About Me */
 
 #About {
+    padding: 60px 0 70px;
+}
+
+.about {
     margin: 0px 50px;
     padding: 40px 60px;
     background-color: #2B384C;
@@ -140,7 +144,7 @@ button:hover {
 /* Projects */
 
 #Projects {
-    margin: 140px 80px;
+    padding: 70px 80px 0;
 }
 
 #Projects h2 {
@@ -198,7 +202,7 @@ button:hover {
 
 #CV {
     justify-content: center;
-    margin-bottom: 90px;
+    padding: 140px 0 80px;
 }
 
 #CV h2 {
@@ -224,7 +228,7 @@ button:hover {
 
 #Contact {
     background: linear-gradient(to bottom, #ffffff 90%, #2B384C 10%);
-    padding-top: 0.02px;
+    padding: 1px;
 }
 
 .All {
@@ -397,7 +401,7 @@ footer p {
 
 /* Responsive */
 
-@media only screen and (max-width: 1259px) {
+@media only screen and (max-width: 1307px) {
 
 
     /* Nav */
@@ -475,7 +479,7 @@ footer p {
     .welc {
         text-align: center;
         margin: 100px 0;
-        margin: 145px 200px 145px;
+        margin: 145px 200px 75px;
     }
 
     .welc h1 {
@@ -588,7 +592,7 @@ footer p {
     .welc {
         text-align: center;
         margin: 100px 0;
-        margin: 145px 140px 145px;
+        margin: 145px 140px 105px;
     }
 
     .welc h1 {
@@ -750,6 +754,10 @@ footer p {
 
     /* Header */
 
+    .Title h1 {
+        font-size: 32px ;
+    }
+
     .cv-btn {
         display: none;
     }
@@ -758,7 +766,7 @@ footer p {
 
     .welc {
         text-align: center;
-        margin: 145px 70px 145px;
+        margin: 145px 70px 85px;
     }
 
     .welc h1 {
@@ -770,6 +778,10 @@ footer p {
     }
 
     /* Projects */ 
+
+    #Projects h2 {
+        font-size: 36px;
+    }
 
     .project {
         width: 400px;
@@ -874,18 +886,218 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 450px) {
+
+    * {
+        font-size: 16px;
+    }
+
+    /* Header */
+
+    nav {
+        padding: 40px 30px;
+    }
+
+    .Title h1 {
+        font-size: 25px;
+    }
+
+    /* Welc */
+
+    .welc {
+        text-align: center;
+        margin: 95px 25px 55px;
+    }
+
+    .welc h1 {
+        font-size: 24px;
+    }
+
+    .welc p {
+        font-size: 15px;
+        margin: 10px 20px 20px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+
+    /* About */
+
+    .about {
+        margin: 20px;
+        padding: 40px 20px;
+    }
+
+    #About h2 {
+        font-size: 25px;
+        padding: 7px 0px;
+    }
+
+
+    #About p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    
+    #About li {
+        font-size: 16px;
+    }
+
+    /* Projects */
+
+    #Projects h2 {
+        font-size: 28px;
+    }
+
+    .project {
+        width: 280px;
+    }
+
+    .project img {
+        width: 280px;
+    }
+
+    .all h3 {
+        font-size: 20px;
+    }
+
+    .all p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    /* CV */
+
+    #CV {
+        margin: 0px 20px 70px;
+    }
+
+    #CV h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+    #CV p {
+       font-size: 15px;
+    }
+    
+    #CV {
+        text-align: center;
+    }
+
+
+    /* Contact Me */
+
+    .All {
+        margin: 10px 20px 0;
+        padding: 50px 40px;
+    }
+
+    .info h2 {
+        font-size: 28px;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .block {
+        margin: 10px 0px;
+        padding: 0 20px;
+        min-width: 250px;
+        gap: 15px ;
+    }
+    
+    .icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .info-block {
+        font-size: 15px;
+    }
+
+    .info-block  h3 {
+        font-size: 18px;
+    }
+    
+    .info-block p, h3 {
+        margin: 3px 0px;
+    }
+
+    .form h2 {
+        font-size: 28px;
+    }
+    
+    .form p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    
+    #name, #company, #number, #email, #message {
+        min-width: 200px;
+        font-size: 16px;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 130px 0px 70px;
+    }
+    
+    footer h1 {
+        font-size: 27px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer li {
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 14px;
+    }
+
+}
+
 @media only screen and (min-height: 765px) {
 
     .welc {
         text-align: center;
-        margin: 145px 300px 145px;
+        margin: 145px 300px 100px;
     }
 }
+
+@media only screen and (min-height: 765px) and (max-width: 1307px) {
+    .welc {
+        text-align: center;
+        margin: 145px 200px 100px;
+    }
+
+}
+
+@media only screen and (min-height: 765px) and (max-width: 1000px) {
+
+    .welc {
+        text-align: center;
+        margin: 145px 100px 100px;
+    }
+
+}
+
 
 @media only screen and (min-height: 800px) {
 
     .welc {
         text-align: center;
-        margin: 190px 300px 190px;
+        margin: 190px 300px 130px;
     }
 }
