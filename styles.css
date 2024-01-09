@@ -924,6 +924,10 @@ footer p {
 
     /* About */
 
+    #About {
+        padding-bottom: 40px;
+    }
+
     .about {
         margin: 20px;
         padding: 40px 20px;
@@ -972,7 +976,7 @@ footer p {
     /* CV */
 
     #CV {
-        margin: 0px 20px 70px;
+        margin: 0px 20px 50px;
     }
 
     #CV h2 {
@@ -1040,6 +1044,7 @@ footer p {
     #name, #company, #number, #email, #message {
         min-width: 200px;
         font-size: 16px;
+        border-radius: 0;
     }
 
     /* Footer */
